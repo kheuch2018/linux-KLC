@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Keyboard Light Controller By Cheikh Seck => website: kheuch.netlify.com
+
+
+
+while true
+do
+actualTime=$(date +"%H%M")
+
+if [ $actualTime -gt 1800 || $actualTime -gt -1 && $actualTime -lt 0800  ]
+then
+  echo 1 > /sys/class/leds/tpacpi\:\:kbd_backlight/brightness
+else
+  echo 0 > /sys/class/leds/tpacpi\:\:kbd_backlight/brightness
+fi
+
+sleep 60
+
+done
