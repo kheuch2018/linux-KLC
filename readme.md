@@ -3,7 +3,7 @@ This script will turn on/off your keyboard light depending on the time. Your Key
 
 ## By: Cheikh Seck
 
-## Website: [Click Here](kheuch.netlify.com)
+## Website: [Click Here](https://kheuch.netlify.com)
 
 ## Twitter: [Click Here](https://twitter.com/c_kheuch_deh)
 
