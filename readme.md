@@ -3,9 +3,9 @@ This script will turn on/off your keyboard light depending on the time. Your Key
 
 ## By: Cheikh Seck
 
-## Website: [Click Here](https://kheuch.netlify.com)
+### Website: [Click Here](https://kheuch.netlify.com)
 
-## Twitter: [Click Here](https://twitter.com/c_kheuch_deh)
+### Twitter: [Click Here](https://twitter.com/c_kheuch_deh)
 
 
 ## Instructions
@@ -14,7 +14,7 @@ This script will turn on/off your keyboard light depending on the time. Your Key
 
 ### 2) Place it to /etc/init.d/
 
-sudo mv /etc/int.d/
+sudo mv linux-KLC /etc/int.d/
 
 ### 3) Add execution rights
 
