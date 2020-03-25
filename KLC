@@ -8,7 +8,7 @@ while true
 do
 actualTime=$(date +"%H%M")
 
-if [ $actualTime -gt 1800 || $actualTime -gt -1 && $actualTime -lt 0800  ]
+if [ $actualTime -gt 1800 ] || [ $actualTime -gt -1 ] && [ $actualTime -lt 0800 ];
 then
   echo 1 > /sys/class/leds/tpacpi\:\:kbd_backlight/brightness
 else
